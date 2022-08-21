@@ -23,6 +23,7 @@ public class MinTest {
 		System.out.println("Count : "+count);
 		
 		
+		
 		Stream<String> strm=Stream.of("s","a","f","g","h");
 		
 		List<String> arrayList=strm.collect(Collectors.toList());

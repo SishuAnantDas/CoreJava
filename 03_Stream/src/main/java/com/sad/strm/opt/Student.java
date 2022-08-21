@@ -1,0 +1,49 @@
+package com.sad.strm.opt;
+
+public class Student {
+	
+	String name;
+	Integer id;
+	String subject;
+	Double percentage;
+	
+	
+	public Student(String name, Integer id, String subject, Double percentage) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.subject = subject;
+		this.percentage = percentage;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	public Double getPercentage() {
+		return percentage;
+	}
+	public void setPercentage(Double percentage) {
+		this.percentage = percentage;
+	}
+	@Override
+	public String toString() {
+		return "Strudent [name=" + name + ", id=" + id + ", subject=" + subject + ", percentage=" + percentage + "]";
+	}
+	
+	
+
+}
