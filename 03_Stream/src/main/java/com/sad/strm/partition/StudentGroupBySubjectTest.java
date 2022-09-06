@@ -31,6 +31,7 @@ public class StudentGroupBySubjectTest {
 			 System.out.println("Key = " + student2.getKey() +
                     ", Value = " + student2.getValue());
 		}
+		studentsGroupBySubject.forEach((a,b)->System.out.print(a+"="+b));
 	}
 
 }
